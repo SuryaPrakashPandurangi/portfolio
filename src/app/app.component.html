@@ -1,0 +1,75 @@
+<div class="container-fluid" id="app">
+  <div class="row navbar sticky-top" id="nav-portfolio">
+    
+    <div class="col-md-2" id="link-main">
+        <a routerLink="/home" routerLinkActive="active" class="link-nav">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="../assets/icons/icon-computer.svg" id="icon-nav"/>
+                    <!--
+                    <img src="../assets/logo/logo - surya p.png" id="icon-nav"/>
+                    -->
+                </div>
+
+                <div class="col-md-8">
+                    <div class="row" id="name">
+                        Surya Pandurangi
+                    </div>
+                    <div class="row">
+                        Full Stack Web Developer
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    
+
+    <div class="col-md-5">
+        
+    </div>
+    
+    <div class="col-md-4">
+        <ul class="" id="list-navbar">
+            <li class="li-nav">
+                <a routerLink="/home" routerLinkActive="active" class="link-nav">
+                    Home
+                </a>
+            </li>
+            <li class="li-nav">
+                <a href="#work-experience" routerLinkActive="active" class="link-nav">
+                    Work
+                </a>
+            </li>
+            
+            <li class="li-nav">
+                <a routerLink="/projects" routerLinkActive="active" class="link-nav">
+                    Projects
+                </a>
+            </li>
+            <li class="li-nav">
+                <a routerLink="/skills" routerLinkActive="active" class="link-nav">
+                    Skills
+                </a>
+            </li>
+            <li class="li-nav">
+                <a href="https://www.linkedin.com/resume-builder/urn:li:fs_memberResume:3282985/" target="_blank"  class="link-nav">
+                    Resume
+                </a>
+                <!--
+                <a routerLink="/resume" routerLinkActive="active" class="link-nav">
+                    Resume
+                </a>
+                -->
+
+            </li>
+            <li class="li-nav">
+                <a routerLink="/contact" routerLinkActive="active" class="link-nav">
+                    Contact
+                </a>
+            </li>
+            
+        </ul>
+    </div>  
+  </div>
+  <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,219 @@
+/*
+Name: Skills Styles
+Type: SCSS
+Author: Surya Prakash Vasudev Pandurangi
+email: suryapandurangi@gmail.com
+*/
+
+/*Imports*/
+@import 'colors.skills';
+
+
+/*Declare Variables, Mixins, and Re-usable & Extensible Styles*/
+
+%font-header{
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+//The Strip on top of every skill
+@mixin skill-strip($border-color){
+    border-top: 0.2em solid $border-color;
+}
+
+/*Styles begin here*/
+
+#skills{
+    padding: 0;
+    margin: 0;
+
+    height: 1500px;
+}
+
+#row-mainheader-skills{
+    margin: 1em 0 0 0;
+    padding: 0 0 0 5em;
+
+    //@extend %font-header;
+    font-size: 1.75em;
+}
+
+#row-header-skills{
+    margin: 1em 0;
+    padding: 0 0 0 5em;
+
+    //@extend %font-header;
+    font-size: 1.75em;
+}
+
+.row-header-skills{
+    margin: 0 0 1.5em 0;
+}
+
+.col-header-skills{
+    margin: 2em 0 0 1em;
+
+    @extend %font-header;
+    font-size: 1.25em;
+}
+
+
+.row-skills{
+    margin: 0 0 0 2em;
+}
+
+.img-skill{
+    width: 2.5em;
+}
+
+.tile-skill{
+    margin: 0 5em 2em 0 ;
+    padding: 1em 0 0 0;
+}
+
+.txt-skill{
+    margin: 0 0 0 1em;
+    font-size: 1.2em;
+}
+
+#tile-c{    
+    @include skill-strip($tilecolor-c);
+}
+
+#tile-java{    
+    @include skill-strip($tilecolor-java);
+}
+
+#tile-python{
+    @include skill-strip($tilecolor-python);
+}
+
+#tile-html{
+    @include skill-strip($tilecolor-html);
+}
+
+#tile-css{
+    @include skill-strip($tilecolor-css);
+}
+
+#tile-scss{
+    @include skill-strip($tilecolor-scss);
+}
+
+#tile-js{
+    @include skill-strip($tilecolor-js);
+}
+
+#tile-angular{
+    @include skill-strip($tilecolor-angular);
+}
+
+#tile-bootstrap{
+    @include skill-strip($tilecolor-bootstrap);
+}
+
+#tile-material{
+    @include skill-strip($tilecolor-material);
+}
+
+#tile-rn{
+    @include skill-strip($tilecolor-reactnative);
+}
+
+//Tile Styles for  Backend
+#tile-spring{
+    @include skill-strip($tilecolor-spring);
+}
+
+#tile-springboot{
+    @include skill-strip($tilecolor-springboot);
+}
+
+#tile-springbatch{
+    @include skill-strip($tilecolor-springbatch);
+}
+
+#tile-hibernate{
+    @include skill-strip($tilecolor-hibernate);
+}
+
+#tile-rest{
+    @include skill-strip($tilecolor-rest);
+}
+
+#tile-jersey{
+    @include skill-strip($tilecolor-jersey);
+}
+
+#tile-swagger{
+    @include skill-strip($tilecolor-swagger);
+}
+
+#tile-mysql{
+    @include skill-strip($tilecolor-mysql);
+}
+
+#tile-maven{
+    @include skill-strip($tilecolor-maven);
+}
+
+#tile-docker{
+    @include skill-strip($tilecolor-docker);
+}
+
+//Colored Top Borders for Tools & Technologies
+#tile-git{
+    @include skill-strip($tilecolor-git);
+}
+
+#tile-bitbucket{
+    @include skill-strip($tilecolor-bitbucket);
+}
+
+#tile-jenkins{
+    @include skill-strip($tilecolor-jenkins);
+}
+
+
+
+#tile-soapui{
+    @include skill-strip($tilecolor-soapui);
+}
+
+#tile-postman{
+    @include skill-strip($tilecolor-postman);
+}
+
+#tile-jira{
+    @include skill-strip($tilecolor-jira);
+}
+
+#tile-confluence{
+    @include skill-strip($tilecolor-confluence);
+}
+
+
+#tile-trello{
+    @include skill-strip($tilecolor-trello);
+}
+
+//Colored Top Borders for IDEs and Editors
+
+#tile-eclipse{
+    @include skill-strip($tilecolor-eclipse);
+}
+
+#tile-intellij{
+    @include skill-strip($tilecolor-intellij);
+}
+
+#tile-vscode{
+    @include skill-strip($tilecolor-vscode);
+}
+
+#tile-npp{
+    @include skill-strip($tilecolor-npp);
+}
+
+#tile-vim{
+    @include skill-strip($tilecolor-vim);
+}

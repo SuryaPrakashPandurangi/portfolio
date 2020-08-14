@@ -1,0 +1,49 @@
+
+%margin{
+    margin: 0.5em 0;
+}
+
+#row-mainheader-projects{
+    margin: 1em 0 0 0;
+    padding: 0 0 0 5em;
+    
+    font-size: 1.75em;
+}
+
+
+
+.row-proj-title{
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 1.25em;
+
+    //@extend %margin;
+    margin: 3em 0 0 0;
+}
+
+.row-proj-description{
+    font-size: 1.1em;
+    max-width: 75%;
+
+    @extend %margin;
+}
+
+.row-proj-skills{
+
+    @extend %margin;
+}
+
+.row-proj-duration{
+
+    @extend %margin;
+}
+
+.subheading-proj{
+    font-weight: bold; 
+}
+
+#row-mainheader-hobbyprojects{
+    margin: 1em 0 0 0;
+    padding: 0 0 0 2.5em;
+    
+    font-size: 1.75em;
+}
